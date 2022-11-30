@@ -1,0 +1,256 @@
+
+#logo{
+    width: 180px;
+    margin: 5px;
+    margin-bottom: 37px;
+    margin-left: 70px;
+}
+#Link{
+    text-decoration: none;
+    margin: 8px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.design{
+    align-items: center;
+    display: block;
+}
+.nav_design{
+    /* width:22%; */
+    background-color:rgba(255, 228, 196,0.8);
+}
+#Link svg{
+    /* margin: 12px; */
+    margin-right: 30px;
+}
+.both{
+    padding: 20px;
+}
+.nav-item{
+    margin: 28px;
+    padding: 10px;
+    
+}
+#logout svg{
+    margin-left: 35px;
+}
+#logout{
+    margin-top: 40px;
+    margin-bottom: 17px;
+}
+#logout p{
+    margin-left: 33px;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight:600;
+    align-items: center;
+}
+/* #logout:hover{
+    background-color: white;
+    border-style: solid;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 0px 30px 30px 0px;
+    border-color: orangered;
+} */
+.p-2 img{
+    width: 170px;
+    margin: 8px;
+}
+
+#close{
+    display: none;
+}
+.publish{
+    background-color: white;
+    height: 220px;
+    width: 285px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+.p-2 h3{
+    font-size: 19px;
+    margin: 10px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.nav-item:hover{
+    background-color: white;
+    border-style: solid;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 0px 30px 30px 0px;
+    border-color: orangered;
+    width: 233px;
+    cursor: pointer;
+}
+#Link:hover{
+    color: orangered;
+}
+
+@media(max-width: 1440px){
+    
+}
+
+
+
+@media(max-width: 1024px){
+    .both{
+        padding: 0;
+        
+    }
+    .navBAR{
+       width: 25%;
+    }
+    #logo{
+        width: 139px;
+        margin-left: 63px;
+    }
+    .publish{
+        margin-left: 10px;
+    }
+   
+}
+
+@media(max-width: 768px){
+    .nav_design{
+        /* width: 140%; */
+        /* position: absolute; */
+        display: flex;
+        /* width: 120%; */
+       
+        
+           }
+           .navbar{
+            background-color:antiquewhite;
+            position: absolute;
+            top: 0;
+            left: 0;
+            /* display: none; */
+            width: 300px;
+            z-index: 11;
+            height: 100%;
+            transition: 1s opacity ease-in-out;
+           }
+       
+    #close{
+        display: block;
+        float:right;
+        margin-left: 20px;
+        /* position: fixed; */
+        position: relative;
+        top: -75px;
+        /* right: -488px; */
+       }
+   /* #togggg{
+    width: 100px;
+    display: flex;
+    text-align: center;
+   } */
+    .nav-item{
+        margin: 26px;
+        padding: 7px;
+        width: 170px;
+    }
+    #Link{
+        margin: 0;
+    }
+    .nav-item:hover{
+        width: 190px;
+    }
+    /* .navbar{
+        width: 600px;
+    } */
+    .nav_design{
+    width: 100%;
+   
+    }
+    .both{
+        padding: 0;
+        
+    }
+    .publish{
+        margin-left: 34px;
+    }
+}
+
+
+@media(max-width:600px){
+    #logo{
+        width: 200px;
+    }
+   #togggg{
+    width: 100px;
+    /* float: left; */
+   }
+   #close{
+    display: block;
+    float:right;
+    margin-left: -8px;
+    /* position: fixed; */
+    position: relative;
+    top: -78px;
+   }
+
+   .navbar{
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* display: none; */
+    width: 100%;
+    z-index: 11;
+    height: 100%;
+
+   }
+
+
+   .nav-item{
+    margin: 0;
+   }
+   #logout{
+    margin: 0;
+   }
+ 
+  .nav_design{
+    width: 375px;
+    padding-left: 45px;
+}
+
+.both{
+    padding: 0;
+}
+.p-2{
+  
+}
+.publish{
+    width: 280px;
+    margin-left: 46px;
+}
+.navbar-toggler{
+    margin-left: -18px;
+    margin-bottom: 20px;
+}
+.design{
+    align-items: center;
+    display: flex;
+   
+}
+#logout{
+    margin-bottom: 50px;
+}
+
+.nav_design{
+    background-color: antiquewhite;
+}
+
+
+}
+
+

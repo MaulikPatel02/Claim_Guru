@@ -1,0 +1,41 @@
+.primary5{
+    width: 870px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#ara{
+    font-weight: 600;
+    color: gray;
+}
+.t-22{
+    height: 150px!important;
+}
+
+@media (max-width: 1024px) {
+    .primary5 {
+      width: 700px;
+      padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .primary5 {
+      width: 703px;
+      padding: 30px;
+    }
+}
+
+@media(max-width:600px){
+    .primary5{
+        width: 371px;
+        margin: 0;
+        margin-top: 30px;
+    }
+}
+

@@ -1,0 +1,107 @@
+.primary2{
+    width: 870px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.Date{
+    display: flex;
+}
+#DLOSS input{
+    width: 395px;
+    height: 40px;
+    border-style: solid;
+    border-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 15px;
+    color: gray;
+    font-weight: 600;
+}
+.t-1 textarea{
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    color: gray;
+    font-weight: 600;
+}
+.t-2{
+    height: 100px!important;
+    color: gray;
+    font-weight: 600;
+}
+.drp{
+    color: gray;
+    font-weight: 600;
+}
+
+@media (max-width: 1024px){
+    .primary2{
+        width: 700px;
+    }
+    #DLOSS input {
+        width: 308px;
+    }
+    .drp {
+        height: 40px;
+    }
+    .drp{
+        width: 313px;
+    } 
+
+}
+
+@media (max-width: 768px) {
+    .primary2 {
+      width: 703px;
+      padding: 30px;
+    }
+    #DLOSS input {
+        width: 321px;
+    }
+    .drp{
+        width: 305px;
+        height: 40px;
+    }
+    .nav_design{
+        /* width: 140%; */
+        /* position: absolute; */
+        display: flex;
+        /* width: 120%; */
+        
+           }
+           /* #close{
+            top: -23px;
+           } */
+         
+          
+}
+
+@media(max-width:600px){
+    .Date{
+        flex-direction: column;
+    }
+
+  
+    .t-1 textarea{
+        width: 310px;
+    }
+    .primary2{
+        width: 371px;
+        margin: 0;
+        margin-top: 30px;
+    }
+    #DLOSS input{
+        width: 311px;
+    }
+    #doss{
+        margin-top: 15px;
+    }
+    /* #close{
+        top: -33px;
+       } */
+}
